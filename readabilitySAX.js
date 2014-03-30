@@ -160,8 +160,8 @@ var tagsToSkip = {__proto__:null,aside:true,footer:true,head:true,label:true,nav
     re_safe = /article-body|hentry|instapaper_body/,
     re_final = /first|last/i,
 
-    re_positive = /article|blog|body|content|entry|main|news|pag(?:e|ination)|post|story|text/,
-    re_negative = /com(?:bx|ment|-)|contact|foot(?:er|note)?|masthead|media|meta|outbrain|promo|related|scroll|shoutbox|sidebar|sponsor|shopping|tags|tool|widget/,
+    re_positive = /article|blog|body|content|entry|hentry|main|news|pag(?:e|ination)|post|story|text/,
+    re_negative = /advertisement|breadcrumb|com(?:bx|ment|-)|contact|disqus|foot(?:er|note)?|masthead|link|media|meta|mod-conversations|outbrain|promo|related|scroll|share|shoutbox|sidebar|social|sponsor|shopping|tags|tool|toolbox|widget/,
     re_unlikelyCandidates =  /ad-break|agegate|auth?or|bookmark|cat|com(?:bx|ment|munity)|date|disqus|extra|foot|header|ignore|links|menu|nav|pag(?:er|ination)|popup|related|remark|rss|share|shoutbox|sidebar|similar|social|sponsor|teaserlist|time|tweet|twitter/,
     re_okMaybeItsACandidate = /and|article|body|column|main|shadow/,
 
